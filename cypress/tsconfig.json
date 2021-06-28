@@ -5,5 +5,5 @@
     "*/**/*.ts",
     "*/*.ts",
     "plugins/index.js"
-  ]
+  ],
 }

@@ -65,6 +65,7 @@ module.exports = (on, config) => {
     "include": [
         "../node_modules/cypress",
         "*/*.ts",
+        "*/**/*.ts"
         "plugins/index.js",
     ]
 }
