@@ -1,0 +1,21 @@
+{
+  "nome": "André",
+  "apelido": "Aquilau",
+  "email": "andreaquilau@gmail.com",
+  "sexo": "Male",
+  "telefone": "6993265271",
+  "fichaDeNacimento": [
+    "December",
+    "1990",
+    "31"
+  ],
+  "subjects": "English",
+  "hobbies": [
+    "Sports",
+    "Music"
+  ],
+  "image": "my-image.jpg",
+  "direccion": "Alguma coisa",
+  "estado": "NCR",
+  "cidade": "Delhi"
+}
