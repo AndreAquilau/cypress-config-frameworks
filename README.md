@@ -199,13 +199,13 @@ declare namespace Cypress {
 #### Scripts De Execução Do Projeto
 ```json
 {
-    "scripts": {
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress": "node_modules/.bin/cypress",
-    "cypress-prod:open": "cypress open --config-file tests/cypress-config-production.json",
-    "cypress-prod:run": "cypress run --config-file tests/cypress-config-production.json",
-    "cypress-dev:open": "cypress open --config-file tests/cypress-config-development.json",
-    "cypress-dev:run": "cypress run --config-file tests/cypress-config-development.json"
+    "cypress-prod:open": "cypress open --config-file environment/cypress-config-production.json",
+    "cypress-prod:run": "cypress run --config-file environment/cypress-config-production.json",
+    "cypress-dev:open": "cypress open --config-file environment/cypress-config-development.json",
+    "cypress-dev:run": "cypress run --config-file environment/cypress-config-development.json"
   },
 }
 ```
