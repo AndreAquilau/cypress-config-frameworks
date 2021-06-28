@@ -7,7 +7,11 @@
 * @cypress/browserify-preprocessor
 * __Opcional__: eslint e prettier
 ```bash
-yarn add -D typescript cypress cypress-localstorage-commands @cypress/browserify-preprocessor
+yarn add -D typescript cypress cypress-localstorage-commands @cypress/browserify-preprocessor @cypress/eslint-plugin-dev
+```
+>.eslint.js add plugin @cypress/dev
+```js
+  plugins: ['@typescript-eslint', '@cypress/dev', 'prettier'],
 ```
 
 ##### Instalar Cypress Local
